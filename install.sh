@@ -1,9 +1,7 @@
 echo UBFI 2020 installing crocbox
 apt update
-apt install -y curl
-apt install -y usbmuxd
+apt install -y curl whiptail usbmuxd
 apt install -y libimobiledevice6
-apt install -y whiptail
 mkdir -p /opt/crocbox
 chmod 777 /opt/crocbox
 wget https://assets.checkra.in/downloads/linux/cli/arm/d751f4b245bd4071c571654607ca4058e9e7dc4a5fa30639024b6067eebf5c3b/checkra1n -O /opt/crocbox/checkra1n
